@@ -30,9 +30,9 @@ function Sidebar({setAuth}) {
         </li>
 
         <li className='nav-item'>
-          <Link className='nav-link' to='/library' activeClassName='active'>
+          <Link className='nav-link' to='#' activeClassName='active'>
             <i className='bi bi-book menu-icon'></i>
-            <span className='menu-title'>Library</span>
+            <span className='menu-title'>Library(underconstruction)</span>
           </Link>
         </li>
 

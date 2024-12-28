@@ -29,9 +29,9 @@ function Sidebar({setAuth}) {
         </li>
 
         <li className='nav-item'>
-          <Link className='nav-link' to='/libraryT'>
+          <Link className='nav-link' to='#'>
             <i className='bi bi-book menu-icon'></i>
-            <span className='menu-title'>Library</span>
+            <span className='menu-title'>Library(underconstruction)</span>
           </Link>
         </li>
 
