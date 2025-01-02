@@ -61,6 +61,9 @@ function Register() {
       formData.append('phone', phone);
       formData.append('bio', bio);
 
+     
+  
+
       const response = await fetch(
         `${url}/create/registerS`,
 
