@@ -16,6 +16,8 @@ function Boardleader() {
         const parseData = await res.json();
 
         setMessage(parseData);
+
+        console.log(parseData)
         controller = null;
       } catch (err) {
         console.error(err.message);
