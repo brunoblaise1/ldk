@@ -3,7 +3,7 @@ import {toast} from 'react-toastify';
 import {url} from '../url';
 import ReactQuill from 'react-quill';
 
-import 'react-quill/dist/quill.snow.css';
+
 import EditorToolBar, {modules, formats} from './EditorToolBar';
 import {useStoreState} from 'easy-peasy';
 
